@@ -1,0 +1,6 @@
+<!--pages/history.wxml-->
+<view wx:for="{{array}}">
+ <image bindtap='getDetail' class='image-info' src='../image/test.png' animation="{{animation}}" ></image>
+   {{item.time}} {{item.descr}}
+</view>
+
